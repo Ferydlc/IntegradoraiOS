@@ -7,26 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		020F4C372D5BB3D400E7B1F2 /* bitmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 020F4C332D5BB3D400E7B1F2 /* bitmap.png */; };
-		020F4C382D5BB3D400E7B1F2 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 020F4C322D5BB3D400E7B1F2 /* background.png */; };
-		020F4C392D5BB3D400E7B1F2 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 020F4C352D5BB3D400E7B1F2 /* Logo.png */; };
-		020F4C3A2D5BB3D400E7B1F2 /* fondo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 020F4C342D5BB3D400E7B1F2 /* fondo.jpg */; };
-		020F4C4D2D5BBD5700E7B1F2 /* fondo2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 020F4C4C2D5BBD5700E7B1F2 /* fondo2.jpeg */; };
-		020F4C4E2D5BBD5700E7B1F2 /* fondo1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 020F4C4B2D5BBD5700E7B1F2 /* fondo1.jpeg */; };
-		0265CF352D5CDED8006D03DD /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0265CF342D5CDED8006D03DD /* img1.png */; };
 		0265CF372D5CE233006D03DD /* fondo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0265CF362D5CE233006D03DD /* fondo4.jpg */; };
 		0265CF392D5CEF95006D03DD /* inicio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0265CF382D5CEF95006D03DD /* inicio.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		020F4C1A2D5B9DD600E7B1F2 /* Integradora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Integradora.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		020F4C322D5BB3D400E7B1F2 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		020F4C332D5BB3D400E7B1F2 /* bitmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitmap.png; sourceTree = "<group>"; };
-		020F4C342D5BB3D400E7B1F2 /* fondo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo.jpg; sourceTree = "<group>"; };
-		020F4C352D5BB3D400E7B1F2 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
-		020F4C4B2D5BBD5700E7B1F2 /* fondo1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo1.jpeg; sourceTree = "<group>"; };
-		020F4C4C2D5BBD5700E7B1F2 /* fondo2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo2.jpeg; sourceTree = "<group>"; };
-		0265CF342D5CDED8006D03DD /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
 		0265CF362D5CE233006D03DD /* fondo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo4.jpg; sourceTree = "<group>"; };
 		0265CF382D5CEF95006D03DD /* inicio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inicio.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,13 +71,6 @@
 			children = (
 				0265CF382D5CEF95006D03DD /* inicio.jpg */,
 				0265CF362D5CE233006D03DD /* fondo4.jpg */,
-				0265CF342D5CDED8006D03DD /* img1.png */,
-				020F4C4B2D5BBD5700E7B1F2 /* fondo1.jpeg */,
-				020F4C4C2D5BBD5700E7B1F2 /* fondo2.jpeg */,
-				020F4C322D5BB3D400E7B1F2 /* background.png */,
-				020F4C332D5BB3D400E7B1F2 /* bitmap.png */,
-				020F4C342D5BB3D400E7B1F2 /* fondo.jpg */,
-				020F4C352D5BB3D400E7B1F2 /* Logo.png */,
 			);
 			path = imggatte;
 			sourceTree = "<group>";
@@ -160,15 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				020F4C372D5BB3D400E7B1F2 /* bitmap.png in Resources */,
-				0265CF352D5CDED8006D03DD /* img1.png in Resources */,
-				020F4C382D5BB3D400E7B1F2 /* background.png in Resources */,
 				0265CF372D5CE233006D03DD /* fondo4.jpg in Resources */,
-				020F4C392D5BB3D400E7B1F2 /* Logo.png in Resources */,
 				0265CF392D5CEF95006D03DD /* inicio.jpg in Resources */,
-				020F4C4D2D5BBD5700E7B1F2 /* fondo2.jpeg in Resources */,
-				020F4C4E2D5BBD5700E7B1F2 /* fondo1.jpeg in Resources */,
-				020F4C3A2D5BB3D400E7B1F2 /* fondo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
