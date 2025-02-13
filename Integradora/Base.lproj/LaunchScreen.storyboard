@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,21 +15,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="rVO-Mp-xvs">
-                                <rect key="frame" x="20" y="332" width="353" height="188"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cato-removebg.png" translatesAutoresizingMaskIntoConstraints="NO" id="E2z-Ad-Gzc">
+                                <rect key="frame" x="26" y="255.66666666666663" width="341" height="341"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="rVO-Mp-xvs" secondAttribute="height" multiplier="15:8" id="WSX-c2-L5J"/>
+                                    <constraint firstAttribute="width" secondItem="E2z-Ad-Gzc" secondAttribute="height" multiplier="1:1" id="NXK-bJ-ogW"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <color key="backgroundColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="rVO-Mp-xvs" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="M0g-Qn-MnV"/>
-                            <constraint firstItem="rVO-Mp-xvs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UOO-qc-CDi"/>
-                            <constraint firstItem="rVO-Mp-xvs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Wq5-SN-rSy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rVO-Mp-xvs" secondAttribute="trailing" constant="20" id="wEp-0L-dfG"/>
+                            <constraint firstItem="E2z-Ad-Gzc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="i4L-o7-Ys9"/>
+                            <constraint firstItem="E2z-Ad-Gzc" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="zA1-xH-B73"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -40,9 +37,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Logo.png" width="353.25" height="147"/>
-        <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <image name="cato-removebg.png" width="334" height="341"/>
     </resources>
 </document>
