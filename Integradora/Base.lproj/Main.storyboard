@@ -57,22 +57,34 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="oVy-3b-NL8">
+                                        <rect key="frame" x="115" y="8" width="50" height="50"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="oVy-3b-NL8" secondAttribute="height" multiplier="1:1" id="6gW-Qb-wjc"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1215686275" green="0.1215686275" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.1215686275" green="0.1215686275" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="EqD-ib-zbu" firstAttribute="height" secondItem="dR3-Ts-IL3" secondAttribute="height" id="6ka-Wu-uC6"/>
                                     <constraint firstAttribute="width" constant="280" id="D4Z-e3-C2d"/>
+                                    <constraint firstItem="dR3-Ts-IL3" firstAttribute="centerX" secondItem="x3n-lh-9vr" secondAttribute="centerX" id="KnP-Xf-kbf"/>
                                     <constraint firstAttribute="bottom" secondItem="EqD-ib-zbu" secondAttribute="bottom" constant="138" id="L1H-KZ-DUD"/>
                                     <constraint firstItem="dR3-Ts-IL3" firstAttribute="top" secondItem="Irf-4v-Rpv" secondAttribute="bottom" constant="36.333333333333314" id="NYE-km-4g5"/>
                                     <constraint firstItem="EqD-ib-zbu" firstAttribute="centerX" secondItem="Yz3-OI-IKL" secondAttribute="centerX" id="REq-kR-u2b"/>
+                                    <constraint firstItem="dR3-Ts-IL3" firstAttribute="centerX" secondItem="oVy-3b-NL8" secondAttribute="centerX" id="RIK-1V-gfB"/>
                                     <constraint firstAttribute="height" constant="380" id="TrF-cJ-V5o"/>
                                     <constraint firstItem="Yz3-OI-IKL" firstAttribute="top" secondItem="EqD-ib-zbu" secondAttribute="bottom" constant="73" id="WtJ-zJ-olu"/>
+                                    <constraint firstItem="oVy-3b-NL8" firstAttribute="top" secondItem="x3n-lh-9vr" secondAttribute="topMargin" id="ar7-Eg-rdN"/>
+                                    <constraint firstItem="oVy-3b-NL8" firstAttribute="centerX" secondItem="x3n-lh-9vr" secondAttribute="centerX" id="bIT-qK-OeN"/>
                                     <constraint firstItem="EqD-ib-zbu" firstAttribute="top" secondItem="dR3-Ts-IL3" secondAttribute="bottom" constant="24" id="evr-Ms-Vjd"/>
                                     <constraint firstItem="dR3-Ts-IL3" firstAttribute="centerX" secondItem="x3n-lh-9vr" secondAttribute="centerX" id="kei-zW-U7Y"/>
                                     <constraint firstItem="Irf-4v-Rpv" firstAttribute="centerX" secondItem="x3n-lh-9vr" secondAttribute="centerX" id="rqf-ie-Jpx"/>
                                     <constraint firstItem="EqD-ib-zbu" firstAttribute="centerX" secondItem="x3n-lh-9vr" secondAttribute="centerX" id="rz7-uo-aPP"/>
                                     <constraint firstItem="Irf-4v-Rpv" firstAttribute="leading" secondItem="x3n-lh-9vr" secondAttribute="leading" constant="71.333333333333343" id="vHg-Wa-6Ug"/>
+                                    <constraint firstItem="Irf-4v-Rpv" firstAttribute="top" secondItem="oVy-3b-NL8" secondAttribute="bottom" constant="16.666666666666686" id="xlX-Rn-ZL4"/>
                                     <constraint firstItem="EqD-ib-zbu" firstAttribute="width" secondItem="dR3-Ts-IL3" secondAttribute="width" id="zdc-jo-90F"/>
                                 </constraints>
                             </view>
@@ -91,6 +103,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="download" width="200" height="200"/>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
